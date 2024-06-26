@@ -8,11 +8,13 @@ Please make it more consumable for the viewer.
 ## How to run
 
 Install dependencies:
+
 ```bash
 npm install
 ```
 
 run the dev app:
+
 ```bash
 npm run dev
 ```
@@ -45,14 +47,16 @@ They then would possibly copy the `patientId` to check further in another applic
 Alongside the above description please consider the following
 
 ### Requirements
+
 - The score for each event should be shown
 - Do not display PHI, the patientId is not PHI
 - The user is only interested in the date part of the event DateTime.
-- Each event should include an indicator of the sample quality. 
+- Each event should include an indicator of the sample quality.
 - The Results component should be responsive between a width of 500px and 800px, you can consider vertical scroll is always available.
 - Please assume the user is on a desktop viewing in a landscape aspect ratio
 
 ### Assumptions
+
 - The patient ID is unique to each patient.
 - Event DateTime will never be the same day for the same patient.
 - There will only ever be 3 events for a patient and they will be unique per event type.
@@ -62,7 +66,6 @@ Alongside the above description please consider the following
 - The score will always be between 0 and 1 inclusive, and will be maximum 2dp.
 - The user is on a desktop viewing in a landscape aspect ratio
 - The results component would be the main part of a page but would be used in a page with a header and left-side menu.
-
 
 ## Data Background
 
